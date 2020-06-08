@@ -18,9 +18,9 @@ done;
 
 #!/bin/bash
 while true; do
-  ./theforgottenserver > data/logs/output.log &
+  ./tfs >> /home/styller/relatorio.log &
   PID=$!
-  echo $PID > theforgottenserver.pid
+  echo $PID > tfs.pid
   wait $PID
   sleep 5
 done
