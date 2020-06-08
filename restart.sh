@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# execute chmod +x restart.sh
+# dar permissão para o arquivo restart.sh: $ chmod +x restart.sh&
 
-# Allow core dumps
+# Permitir despejos de núcleo
 ulimit -c unlimited
 
-# Set working directory
+# Definir diretório de trabalho
 cd /home/styller/
 
-# Main loop
+# Laço principal
 while true;
 do
    ./tfs >> /home/styller/relatorio.log 2>&1
@@ -16,7 +16,6 @@ done;
 
 #####################################################################
 
-#!/bin/bash
 while true; do
   ./tfs >> /home/styller/relatorio.log &
   PID=$!
