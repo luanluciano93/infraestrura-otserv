@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# execute chmod +x restart.sh
+
 # Allow core dumps
 ulimit -c unlimited
 
