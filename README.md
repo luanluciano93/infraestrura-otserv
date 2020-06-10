@@ -9,3 +9,6 @@ Este é um manual é usado para provisionar completamente uma máquina Ubuntu pa
 ### Tags disponíveis:
 * [Compilando TFS no Ubuntu](https://github.com/luanluciano93/infraestrura-otserv/wiki/Compilando-TFS-no-Ubuntu)
 * Configurando o config.lua.dist do servidor.
+
+
+revisar: https://tibiaking.com/forums/topic/98654-instalando-site-e-compilando-source-ubuntu-2004/
