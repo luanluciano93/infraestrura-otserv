@@ -9,13 +9,6 @@ ulimit -c unlimited
 cd /home/styller/
 
 # Laço principal
-while true;
-do
-   ./tfs >> /home/styller/relatorio.log 2>&1
-done;
-
-#####################################################################
-
 while true; do
   ./tfs >> /home/styller/relatorio.log &
   PID=$!
