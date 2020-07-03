@@ -10,7 +10,7 @@ cd /home/otsmanager/forgottenserver
 
 # Laço principal
 while true; do
-  ./tfs >> /home/styller/relatorio.log &
+  ./tfs >> /home/otsmanager/forgottenserver/relatorio.log &
   PID=$!
   echo $PID > tfs.pid
   wait $PID
