@@ -3,3 +3,11 @@ Após a instalação com o ansine
 configurar o config.lua, database, o server.
 
 enviar o phpmyadmin para a pasta do servidor: cp -r /usr/share/phpmyadmin/ /home/otsmanager/www/public_html/phpmyadmin/
+depois mude o nome do arquivo do phpmyadmin
+
+depois coloque o restart.sh, dê a permissão necessaria e inicia o servidor
+- chmod 777 -R restart.sh
+
+
+ps x
+kill -9 21748
