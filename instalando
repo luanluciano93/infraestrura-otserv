@@ -1,0 +1,5 @@
+Após a instalação com o ansine
+
+configurar o config.lua, database, o server.
+
+enviar o phpmyadmin para a pasta do servidor: cp -r /usr/share/phpmyadmin/ /home/otsmanager/www/public_html/phpmyadmin/
