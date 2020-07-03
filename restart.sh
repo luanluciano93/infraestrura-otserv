@@ -6,7 +6,7 @@
 ulimit -c unlimited
 
 # Definir diretório de trabalho
-cd /home/styller/
+cd /home/otsmanager/forgottenserver
 
 # Laço principal
 while true; do
